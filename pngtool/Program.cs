@@ -5,7 +5,7 @@ class Program
 	static void Main( string[] args )
 	{
 		string file      = args[0];
-		int   colorType = int.Parse( args[1] );
+		int   colorType = 4;
 
 		if( !File.Exists( file ) )
 		{
